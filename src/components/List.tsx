@@ -1,4 +1,5 @@
-import { Item, ItemProps } from "./Item"
+import { Item } from "./Item"
+import type { ItemProps } from "./Item"
 
 type ListProps = {
 

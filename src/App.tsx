@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react'
 import { List } from './components/List'
-import { ItemProps } from './components/Item'
+import type { ItemProps } from './components/Item'
 
 function App() {
   const [tasks] = useState<ItemProps[]>([
