@@ -1,8 +1,15 @@
 .done {
     text-decoration: line-through;
+    background-color: #d4edda !important ; /* světle zelená pro hotové úkoly */
+    color: #155724; /* tmavší zelený text */
+    opacity: 0.6;
 }
 
 .item {
+    max-width: 30%;
+    border-radius: 10px;
+    margin: 10px;
     padding: 10px;
+    background-color: greenyellow;
     border-bottom: 1px solid #7b7b7b;
 }
