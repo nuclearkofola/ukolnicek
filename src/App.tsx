@@ -1,10 +1,10 @@
 import './App.css'
 import { useState } from 'react'
 import { List } from './components/List'
-import type { ItemProps } from './components/Item'
+import type { ItemData } from './components/ItemData'
 
 function App() {
-  const [tasks] = useState<ItemProps[]>([
+  const [tasks] = useState<ItemData[]>([
     {
       title: 'Příprava prezentace',
       description: 'Vytvořit prezentaci pro páteční meeting s klientem.',

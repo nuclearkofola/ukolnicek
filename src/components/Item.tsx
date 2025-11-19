@@ -1,10 +1,11 @@
 import './Item.css'
 
-export type ItemProps = {
+type ItemProps = {
     title: string;
     description: string;
     done: boolean;
 }
+export type ItemData = ItemProps;
 
 export const Item = ({ title, description, done }: ItemProps) => {
     return (
